@@ -12,7 +12,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    [_colorControl setSelectedColor:[NSColor purpleColor]];
     // Do any additional setup after loading the view.
 }
 

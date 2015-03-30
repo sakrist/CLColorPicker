@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CLColorPicker.h"
 
 @interface ViewController : NSViewController
 
+@property (nonatomic, weak) IBOutlet CLColorPicker *colorControl;
 
 @end
 
