@@ -8,7 +8,7 @@ This control based on NSSegmentedControl and have numbers of useful thinks to kn
 	- create NSPopover<br/>
 
 
-<img src="https://github.com/sakrist/CLColorPicker/blob/master/ScreenShot.png">
+<img src="https://github.com/sakrist/CLColorPicker/blob/master/ScreenShot.png" width="592">
 
 
 
