@@ -674,6 +674,9 @@
                         <subviews>
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yot-pL-Mi1" customClass="CLColorPicker">
                                 <rect key="frame" x="205" y="196" width="70" height="24"/>
+                                <connections>
+                                    <action selector="bgSelectedColor:" target="XfG-lQ-9wD" id="QBz-dZ-pqJ"/>
+                                </connections>
                             </customView>
                         </subviews>
                     </view>

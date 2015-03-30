@@ -73,6 +73,7 @@
 
 - (void) setSelectedColor:(NSColor *)selectedColor {
     _control.selectedColor = selectedColor;
+    [self sendAction:self.action to:self.target];
 }
 
 - (NSColor*) selectedColor {
@@ -81,12 +82,12 @@
 
 - (void)colorUpdate:(NSColorPanel*)colorPanel {
     if (_enableColorChoose) {
-        _control.selectedColor = colorPanel.color;
+        [self setSelectedColor:colorPanel.color];
     }
 }
 
 - (void)colorUpdatePopover:(NSColor*)color {
-    _control.selectedColor = color;
+    [self setSelectedColor:color];
     [_popover close];
 }
 

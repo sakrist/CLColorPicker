@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "CLColorPickerSegmentedControl.h"
 
-@interface CLColorPicker : NSView
+@interface CLColorPicker : NSControl
 
 @property (nonatomic, strong) NSColor *selectedColor;
 

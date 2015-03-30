@@ -23,4 +23,8 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction) bgSelectedColor:(CLColorPicker*)sender {
+    NSLog(@"%@", sender.selectedColor);
+}
+
 @end
