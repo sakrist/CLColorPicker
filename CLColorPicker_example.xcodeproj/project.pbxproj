@@ -7,65 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2AA3B721AC93B790020F803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B711AC93B790020F803 /* AppDelegate.m */; };
-		D2AA3B741AC93B790020F803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B731AC93B790020F803 /* main.m */; };
-		D2AA3B771AC93B790020F803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B761AC93B790020F803 /* ViewController.m */; };
-		D2AA3B791AC93B790020F803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AA3B781AC93B790020F803 /* Images.xcassets */; };
-		D2AA3B7C1AC93B790020F803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AA3B7A1AC93B790020F803 /* Main.storyboard */; };
-		D2AA3B881AC93B790020F803 /* CLColorPicker_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B871AC93B790020F803 /* CLColorPicker_exampleTests.m */; };
-		D2AA3B9B1AC93BA40020F803 /* CLColorControllerPopove.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B931AC93BA40020F803 /* CLColorControllerPopove.m */; };
-		D2AA3B9C1AC93BA40020F803 /* CLColorControllerPopove.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2AA3B941AC93BA40020F803 /* CLColorControllerPopove.xib */; };
-		D2AA3B9D1AC93BA40020F803 /* CLColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B961AC93BA40020F803 /* CLColorPicker.m */; };
-		D2AA3B9E1AC93BA40020F803 /* CLColorPickerSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B981AC93BA40020F803 /* CLColorPickerSegmentedCell.m */; };
-		D2AA3B9F1AC93BA40020F803 /* CLColorPickerSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3B9A1AC93BA40020F803 /* CLColorPickerSegmentedControl.m */; };
-		D2AA3BA21AC93BAB0020F803 /* NSColor+ColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BA11AC93BAB0020F803 /* NSColor+ColorExtensions.m */; };
+		D2AA3BB61AC95B320020F803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BB51AC95B320020F803 /* AppDelegate.m */; };
+		D2AA3BB81AC95B320020F803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BB71AC95B320020F803 /* main.m */; };
+		D2AA3BBA1AC95B320020F803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AA3BB91AC95B320020F803 /* Images.xcassets */; };
+		D2AA3BBD1AC95B320020F803 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2AA3BBB1AC95B320020F803 /* MainMenu.xib */; };
+		D2AA3BC91AC95B320020F803 /* CLColorPicker_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BC81AC95B320020F803 /* CLColorPicker_exampleTests.m */; };
+		D2AA3BDC1AC95B6C0020F803 /* CLColorControllerPopove.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BD41AC95B6C0020F803 /* CLColorControllerPopove.m */; };
+		D2AA3BDD1AC95B6C0020F803 /* CLColorControllerPopove.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2AA3BD51AC95B6C0020F803 /* CLColorControllerPopove.xib */; };
+		D2AA3BDE1AC95B6C0020F803 /* CLColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BD71AC95B6C0020F803 /* CLColorPicker.m */; };
+		D2AA3BDF1AC95B6C0020F803 /* CLColorPickerSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BD91AC95B6C0020F803 /* CLColorPickerSegmentedCell.m */; };
+		D2AA3BE01AC95B6C0020F803 /* CLColorPickerSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BDB1AC95B6C0020F803 /* CLColorPickerSegmentedControl.m */; };
+		D2AA3BE51AC95B890020F803 /* NSColor+ColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AA3BE21AC95B890020F803 /* NSColor+ColorExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2AA3B821AC93B790020F803 /* PBXContainerItemProxy */ = {
+		D2AA3BC31AC95B320020F803 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2AA3B631AC93B790020F803 /* Project object */;
+			containerPortal = D2AA3BA71AC95B320020F803 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AA3B6A1AC93B790020F803;
+			remoteGlobalIDString = D2AA3BAE1AC95B320020F803;
 			remoteInfo = CLColorPicker_example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2AA3B6B1AC93B790020F803 /* CLColorPicker_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLColorPicker_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AA3B6F1AC93B790020F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2AA3B701AC93B790020F803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D2AA3B711AC93B790020F803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2AA3B731AC93B790020F803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D2AA3B751AC93B790020F803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2AA3B761AC93B790020F803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D2AA3B781AC93B790020F803 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D2AA3B7B1AC93B790020F803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2AA3B811AC93B790020F803 /* CLColorPicker_exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLColorPicker_exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AA3B861AC93B790020F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2AA3B871AC93B790020F803 /* CLColorPicker_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLColorPicker_exampleTests.m; sourceTree = "<group>"; };
-		D2AA3B921AC93BA40020F803 /* CLColorControllerPopove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorControllerPopove.h; sourceTree = "<group>"; };
-		D2AA3B931AC93BA40020F803 /* CLColorControllerPopove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorControllerPopove.m; sourceTree = "<group>"; };
-		D2AA3B941AC93BA40020F803 /* CLColorControllerPopove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLColorControllerPopove.xib; sourceTree = "<group>"; };
-		D2AA3B951AC93BA40020F803 /* CLColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorPicker.h; sourceTree = "<group>"; };
-		D2AA3B961AC93BA40020F803 /* CLColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorPicker.m; sourceTree = "<group>"; };
-		D2AA3B971AC93BA40020F803 /* CLColorPickerSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorPickerSegmentedCell.h; sourceTree = "<group>"; };
-		D2AA3B981AC93BA40020F803 /* CLColorPickerSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorPickerSegmentedCell.m; sourceTree = "<group>"; };
-		D2AA3B991AC93BA40020F803 /* CLColorPickerSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorPickerSegmentedControl.h; sourceTree = "<group>"; };
-		D2AA3B9A1AC93BA40020F803 /* CLColorPickerSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorPickerSegmentedControl.m; sourceTree = "<group>"; };
-		D2AA3BA01AC93BAB0020F803 /* NSColor+ColorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+ColorExtensions.h"; sourceTree = "<group>"; };
-		D2AA3BA11AC93BAB0020F803 /* NSColor+ColorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+ColorExtensions.m"; sourceTree = "<group>"; };
+		D2AA3BAF1AC95B320020F803 /* CLColorPicker_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLColorPicker_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AA3BB31AC95B320020F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AA3BB41AC95B320020F803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2AA3BB51AC95B320020F803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2AA3BB71AC95B320020F803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2AA3BB91AC95B320020F803 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2AA3BBC1AC95B320020F803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2AA3BC21AC95B320020F803 /* CLColorPicker_exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLColorPicker_exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AA3BC71AC95B320020F803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AA3BC81AC95B320020F803 /* CLColorPicker_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLColorPicker_exampleTests.m; sourceTree = "<group>"; };
+		D2AA3BD31AC95B6C0020F803 /* CLColorControllerPopove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorControllerPopove.h; sourceTree = "<group>"; };
+		D2AA3BD41AC95B6C0020F803 /* CLColorControllerPopove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorControllerPopove.m; sourceTree = "<group>"; };
+		D2AA3BD51AC95B6C0020F803 /* CLColorControllerPopove.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLColorControllerPopove.xib; sourceTree = "<group>"; };
+		D2AA3BD61AC95B6C0020F803 /* CLColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorPicker.h; sourceTree = "<group>"; };
+		D2AA3BD71AC95B6C0020F803 /* CLColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorPicker.m; sourceTree = "<group>"; };
+		D2AA3BD81AC95B6C0020F803 /* CLColorPickerSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorPickerSegmentedCell.h; sourceTree = "<group>"; };
+		D2AA3BD91AC95B6C0020F803 /* CLColorPickerSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorPickerSegmentedCell.m; sourceTree = "<group>"; };
+		D2AA3BDA1AC95B6C0020F803 /* CLColorPickerSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorPickerSegmentedControl.h; sourceTree = "<group>"; };
+		D2AA3BDB1AC95B6C0020F803 /* CLColorPickerSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorPickerSegmentedControl.m; sourceTree = "<group>"; };
+		D2AA3BE11AC95B890020F803 /* NSColor+ColorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+ColorExtensions.h"; sourceTree = "<group>"; };
+		D2AA3BE21AC95B890020F803 /* NSColor+ColorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+ColorExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2AA3B681AC93B790020F803 /* Frameworks */ = {
+		D2AA3BAC1AC95B320020F803 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2AA3B7E1AC93B790020F803 /* Frameworks */ = {
+		D2AA3BBF1AC95B320020F803 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,79 +72,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2AA3B621AC93B790020F803 = {
+		D2AA3BA61AC95B320020F803 = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B6D1AC93B790020F803 /* CLColorPicker_example */,
-				D2AA3B841AC93B790020F803 /* CLColorPicker_exampleTests */,
-				D2AA3B6C1AC93B790020F803 /* Products */,
+				D2AA3BB11AC95B320020F803 /* CLColorPicker_example */,
+				D2AA3BC51AC95B320020F803 /* CLColorPicker_exampleTests */,
+				D2AA3BB01AC95B320020F803 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D2AA3B6C1AC93B790020F803 /* Products */ = {
+		D2AA3BB01AC95B320020F803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B6B1AC93B790020F803 /* CLColorPicker_example.app */,
-				D2AA3B811AC93B790020F803 /* CLColorPicker_exampleTests.xctest */,
+				D2AA3BAF1AC95B320020F803 /* CLColorPicker_example.app */,
+				D2AA3BC21AC95B320020F803 /* CLColorPicker_exampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2AA3B6D1AC93B790020F803 /* CLColorPicker_example */ = {
+		D2AA3BB11AC95B320020F803 /* CLColorPicker_example */ = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B701AC93B790020F803 /* AppDelegate.h */,
-				D2AA3B711AC93B790020F803 /* AppDelegate.m */,
-				D2AA3B751AC93B790020F803 /* ViewController.h */,
-				D2AA3B761AC93B790020F803 /* ViewController.m */,
-				D2AA3BA01AC93BAB0020F803 /* NSColor+ColorExtensions.h */,
-				D2AA3BA11AC93BAB0020F803 /* NSColor+ColorExtensions.m */,
-				D2AA3B911AC93BA40020F803 /* CLColorPicker */,
-				D2AA3B781AC93B790020F803 /* Images.xcassets */,
-				D2AA3B7A1AC93B790020F803 /* Main.storyboard */,
-				D2AA3B6E1AC93B790020F803 /* Supporting Files */,
+				D2AA3BB41AC95B320020F803 /* AppDelegate.h */,
+				D2AA3BB51AC95B320020F803 /* AppDelegate.m */,
+				D2AA3BE11AC95B890020F803 /* NSColor+ColorExtensions.h */,
+				D2AA3BE21AC95B890020F803 /* NSColor+ColorExtensions.m */,
+				D2AA3BB91AC95B320020F803 /* Images.xcassets */,
+				D2AA3BBB1AC95B320020F803 /* MainMenu.xib */,
+				D2AA3BD21AC95B6C0020F803 /* CLColorPicker */,
+				D2AA3BB21AC95B320020F803 /* Supporting Files */,
 			);
 			path = CLColorPicker_example;
 			sourceTree = "<group>";
 		};
-		D2AA3B6E1AC93B790020F803 /* Supporting Files */ = {
+		D2AA3BB21AC95B320020F803 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B6F1AC93B790020F803 /* Info.plist */,
-				D2AA3B731AC93B790020F803 /* main.m */,
+				D2AA3BB31AC95B320020F803 /* Info.plist */,
+				D2AA3BB71AC95B320020F803 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D2AA3B841AC93B790020F803 /* CLColorPicker_exampleTests */ = {
+		D2AA3BC51AC95B320020F803 /* CLColorPicker_exampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B871AC93B790020F803 /* CLColorPicker_exampleTests.m */,
-				D2AA3B851AC93B790020F803 /* Supporting Files */,
+				D2AA3BC81AC95B320020F803 /* CLColorPicker_exampleTests.m */,
+				D2AA3BC61AC95B320020F803 /* Supporting Files */,
 			);
 			path = CLColorPicker_exampleTests;
 			sourceTree = "<group>";
 		};
-		D2AA3B851AC93B790020F803 /* Supporting Files */ = {
+		D2AA3BC61AC95B320020F803 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B861AC93B790020F803 /* Info.plist */,
+				D2AA3BC71AC95B320020F803 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D2AA3B911AC93BA40020F803 /* CLColorPicker */ = {
+		D2AA3BD21AC95B6C0020F803 /* CLColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				D2AA3B921AC93BA40020F803 /* CLColorControllerPopove.h */,
-				D2AA3B931AC93BA40020F803 /* CLColorControllerPopove.m */,
-				D2AA3B941AC93BA40020F803 /* CLColorControllerPopove.xib */,
-				D2AA3B951AC93BA40020F803 /* CLColorPicker.h */,
-				D2AA3B961AC93BA40020F803 /* CLColorPicker.m */,
-				D2AA3B971AC93BA40020F803 /* CLColorPickerSegmentedCell.h */,
-				D2AA3B981AC93BA40020F803 /* CLColorPickerSegmentedCell.m */,
-				D2AA3B991AC93BA40020F803 /* CLColorPickerSegmentedControl.h */,
-				D2AA3B9A1AC93BA40020F803 /* CLColorPickerSegmentedControl.m */,
+				D2AA3BD31AC95B6C0020F803 /* CLColorControllerPopove.h */,
+				D2AA3BD41AC95B6C0020F803 /* CLColorControllerPopove.m */,
+				D2AA3BD51AC95B6C0020F803 /* CLColorControllerPopove.xib */,
+				D2AA3BD61AC95B6C0020F803 /* CLColorPicker.h */,
+				D2AA3BD71AC95B6C0020F803 /* CLColorPicker.m */,
+				D2AA3BD81AC95B6C0020F803 /* CLColorPickerSegmentedCell.h */,
+				D2AA3BD91AC95B6C0020F803 /* CLColorPickerSegmentedCell.m */,
+				D2AA3BDA1AC95B6C0020F803 /* CLColorPickerSegmentedControl.h */,
+				D2AA3BDB1AC95B6C0020F803 /* CLColorPickerSegmentedControl.m */,
 			);
 			path = CLColorPicker;
 			sourceTree = SOURCE_ROOT;
@@ -155,13 +150,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2AA3B6A1AC93B790020F803 /* CLColorPicker_example */ = {
+		D2AA3BAE1AC95B320020F803 /* CLColorPicker_example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2AA3B8B1AC93B790020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_example" */;
+			buildConfigurationList = D2AA3BCC1AC95B320020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_example" */;
 			buildPhases = (
-				D2AA3B671AC93B790020F803 /* Sources */,
-				D2AA3B681AC93B790020F803 /* Frameworks */,
-				D2AA3B691AC93B790020F803 /* Resources */,
+				D2AA3BAB1AC95B320020F803 /* Sources */,
+				D2AA3BAC1AC95B320020F803 /* Frameworks */,
+				D2AA3BAD1AC95B320020F803 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,46 +164,46 @@
 			);
 			name = CLColorPicker_example;
 			productName = CLColorPicker_example;
-			productReference = D2AA3B6B1AC93B790020F803 /* CLColorPicker_example.app */;
+			productReference = D2AA3BAF1AC95B320020F803 /* CLColorPicker_example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2AA3B801AC93B790020F803 /* CLColorPicker_exampleTests */ = {
+		D2AA3BC11AC95B320020F803 /* CLColorPicker_exampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2AA3B8E1AC93B790020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_exampleTests" */;
+			buildConfigurationList = D2AA3BCF1AC95B320020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_exampleTests" */;
 			buildPhases = (
-				D2AA3B7D1AC93B790020F803 /* Sources */,
-				D2AA3B7E1AC93B790020F803 /* Frameworks */,
-				D2AA3B7F1AC93B790020F803 /* Resources */,
+				D2AA3BBE1AC95B320020F803 /* Sources */,
+				D2AA3BBF1AC95B320020F803 /* Frameworks */,
+				D2AA3BC01AC95B320020F803 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2AA3B831AC93B790020F803 /* PBXTargetDependency */,
+				D2AA3BC41AC95B320020F803 /* PBXTargetDependency */,
 			);
 			name = CLColorPicker_exampleTests;
 			productName = CLColorPicker_exampleTests;
-			productReference = D2AA3B811AC93B790020F803 /* CLColorPicker_exampleTests.xctest */;
+			productReference = D2AA3BC21AC95B320020F803 /* CLColorPicker_exampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2AA3B631AC93B790020F803 /* Project object */ = {
+		D2AA3BA71AC95B320020F803 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Volodymyr Boichentsov";
 				TargetAttributes = {
-					D2AA3B6A1AC93B790020F803 = {
+					D2AA3BAE1AC95B320020F803 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					D2AA3B801AC93B790020F803 = {
+					D2AA3BC11AC95B320020F803 = {
 						CreatedOnToolsVersion = 6.2;
-						TestTargetID = D2AA3B6A1AC93B790020F803;
+						TestTargetID = D2AA3BAE1AC95B320020F803;
 					};
 				};
 			};
-			buildConfigurationList = D2AA3B661AC93B790020F803 /* Build configuration list for PBXProject "CLColorPicker_example" */;
+			buildConfigurationList = D2AA3BAA1AC95B320020F803 /* Build configuration list for PBXProject "CLColorPicker_example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,29 +211,29 @@
 				en,
 				Base,
 			);
-			mainGroup = D2AA3B621AC93B790020F803;
-			productRefGroup = D2AA3B6C1AC93B790020F803 /* Products */;
+			mainGroup = D2AA3BA61AC95B320020F803;
+			productRefGroup = D2AA3BB01AC95B320020F803 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AA3B6A1AC93B790020F803 /* CLColorPicker_example */,
-				D2AA3B801AC93B790020F803 /* CLColorPicker_exampleTests */,
+				D2AA3BAE1AC95B320020F803 /* CLColorPicker_example */,
+				D2AA3BC11AC95B320020F803 /* CLColorPicker_exampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2AA3B691AC93B790020F803 /* Resources */ = {
+		D2AA3BAD1AC95B320020F803 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AA3B791AC93B790020F803 /* Images.xcassets in Resources */,
-				D2AA3B9C1AC93BA40020F803 /* CLColorControllerPopove.xib in Resources */,
-				D2AA3B7C1AC93B790020F803 /* Main.storyboard in Resources */,
+				D2AA3BBA1AC95B320020F803 /* Images.xcassets in Resources */,
+				D2AA3BDD1AC95B6C0020F803 /* CLColorControllerPopove.xib in Resources */,
+				D2AA3BBD1AC95B320020F803 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2AA3B7F1AC93B790020F803 /* Resources */ = {
+		D2AA3BC01AC95B320020F803 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,52 +243,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2AA3B671AC93B790020F803 /* Sources */ = {
+		D2AA3BAB1AC95B320020F803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AA3B9D1AC93BA40020F803 /* CLColorPicker.m in Sources */,
-				D2AA3B771AC93B790020F803 /* ViewController.m in Sources */,
-				D2AA3B741AC93B790020F803 /* main.m in Sources */,
-				D2AA3B9E1AC93BA40020F803 /* CLColorPickerSegmentedCell.m in Sources */,
-				D2AA3B721AC93B790020F803 /* AppDelegate.m in Sources */,
-				D2AA3B9B1AC93BA40020F803 /* CLColorControllerPopove.m in Sources */,
-				D2AA3BA21AC93BAB0020F803 /* NSColor+ColorExtensions.m in Sources */,
-				D2AA3B9F1AC93BA40020F803 /* CLColorPickerSegmentedControl.m in Sources */,
+				D2AA3BDC1AC95B6C0020F803 /* CLColorControllerPopove.m in Sources */,
+				D2AA3BB81AC95B320020F803 /* main.m in Sources */,
+				D2AA3BDF1AC95B6C0020F803 /* CLColorPickerSegmentedCell.m in Sources */,
+				D2AA3BE01AC95B6C0020F803 /* CLColorPickerSegmentedControl.m in Sources */,
+				D2AA3BDE1AC95B6C0020F803 /* CLColorPicker.m in Sources */,
+				D2AA3BE51AC95B890020F803 /* NSColor+ColorExtensions.m in Sources */,
+				D2AA3BB61AC95B320020F803 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2AA3B7D1AC93B790020F803 /* Sources */ = {
+		D2AA3BBE1AC95B320020F803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2AA3B881AC93B790020F803 /* CLColorPicker_exampleTests.m in Sources */,
+				D2AA3BC91AC95B320020F803 /* CLColorPicker_exampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2AA3B831AC93B790020F803 /* PBXTargetDependency */ = {
+		D2AA3BC41AC95B320020F803 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2AA3B6A1AC93B790020F803 /* CLColorPicker_example */;
-			targetProxy = D2AA3B821AC93B790020F803 /* PBXContainerItemProxy */;
+			target = D2AA3BAE1AC95B320020F803 /* CLColorPicker_example */;
+			targetProxy = D2AA3BC31AC95B320020F803 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2AA3B7A1AC93B790020F803 /* Main.storyboard */ = {
+		D2AA3BBB1AC95B320020F803 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2AA3B7B1AC93B790020F803 /* Base */,
+				D2AA3BBC1AC95B320020F803 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D2AA3B891AC93B790020F803 /* Debug */ = {
+		D2AA3BCA1AC95B320020F803 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,7 +328,7 @@
 			};
 			name = Debug;
 		};
-		D2AA3B8A1AC93B790020F803 /* Release */ = {
+		D2AA3BCB1AC95B320020F803 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,29 +363,31 @@
 			};
 			name = Release;
 		};
-		D2AA3B8C1AC93B790020F803 /* Debug */ = {
+		D2AA3BCD1AC95B320020F803 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CLColorPicker_example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		D2AA3B8D1AC93B790020F803 /* Release */ = {
+		D2AA3BCE1AC95B320020F803 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CLColorPicker_example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		D2AA3B8F1AC93B790020F803 /* Debug */ = {
+		D2AA3BD01AC95B320020F803 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -411,7 +407,7 @@
 			};
 			name = Debug;
 		};
-		D2AA3B901AC93B790020F803 /* Release */ = {
+		D2AA3BD11AC95B320020F803 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -430,34 +426,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2AA3B661AC93B790020F803 /* Build configuration list for PBXProject "CLColorPicker_example" */ = {
+		D2AA3BAA1AC95B320020F803 /* Build configuration list for PBXProject "CLColorPicker_example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2AA3B891AC93B790020F803 /* Debug */,
-				D2AA3B8A1AC93B790020F803 /* Release */,
+				D2AA3BCA1AC95B320020F803 /* Debug */,
+				D2AA3BCB1AC95B320020F803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2AA3B8B1AC93B790020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_example" */ = {
+		D2AA3BCC1AC95B320020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2AA3B8C1AC93B790020F803 /* Debug */,
-				D2AA3B8D1AC93B790020F803 /* Release */,
+				D2AA3BCD1AC95B320020F803 /* Debug */,
+				D2AA3BCE1AC95B320020F803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		D2AA3B8E1AC93B790020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_exampleTests" */ = {
+		D2AA3BCF1AC95B320020F803 /* Build configuration list for PBXNativeTarget "CLColorPicker_exampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2AA3B8F1AC93B790020F803 /* Debug */,
-				D2AA3B901AC93B790020F803 /* Release */,
+				D2AA3BD01AC95B320020F803 /* Debug */,
+				D2AA3BD11AC95B320020F803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2AA3B631AC93B790020F803 /* Project object */;
+	rootObject = D2AA3BA71AC95B320020F803 /* Project object */;
 }

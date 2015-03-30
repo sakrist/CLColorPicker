@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2AA3B6A1AC93B790020F803"
+               BlueprintIdentifier = "D2AA3BAE1AC95B320020F803"
                BuildableName = "CLColorPicker_example.app"
                BlueprintName = "CLColorPicker_example"
                ReferencedContainer = "container:CLColorPicker_example.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2AA3B801AC93B790020F803"
+               BlueprintIdentifier = "D2AA3BC11AC95B320020F803"
                BuildableName = "CLColorPicker_exampleTests.xctest"
                BlueprintName = "CLColorPicker_exampleTests"
                ReferencedContainer = "container:CLColorPicker_example.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2AA3B801AC93B790020F803"
+               BlueprintIdentifier = "D2AA3BC11AC95B320020F803"
                BuildableName = "CLColorPicker_exampleTests.xctest"
                BlueprintName = "CLColorPicker_exampleTests"
                ReferencedContainer = "container:CLColorPicker_example.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2AA3B6A1AC93B790020F803"
+            BlueprintIdentifier = "D2AA3BAE1AC95B320020F803"
             BuildableName = "CLColorPicker_example.app"
             BlueprintName = "CLColorPicker_example"
             ReferencedContainer = "container:CLColorPicker_example.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2AA3B6A1AC93B790020F803"
+            BlueprintIdentifier = "D2AA3BAE1AC95B320020F803"
             BuildableName = "CLColorPicker_example.app"
             BlueprintName = "CLColorPicker_example"
             ReferencedContainer = "container:CLColorPicker_example.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2AA3B6A1AC93B790020F803"
+            BlueprintIdentifier = "D2AA3BAE1AC95B320020F803"
             BuildableName = "CLColorPicker_example.app"
             BlueprintName = "CLColorPicker_example"
             ReferencedContainer = "container:CLColorPicker_example.xcodeproj">
