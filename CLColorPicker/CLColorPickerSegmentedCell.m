@@ -133,7 +133,8 @@
             [path fill];
         } else {
         
-            [[control.selectedColor darkenColorByValue:1.0-alpha] setFill];
+            [[control.selectedColor blendedColorWithFraction:1.0-alpha ofColor:[NSColor blackColor]] setFill];
+            
             NSBezierPath *pathTop = [NSBezierPath bezierPath];
             [pathTop moveToPoint:NSMakePoint(rect.origin.x+radius, NSMaxY(rect))];
             [pathTop lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y)];
@@ -142,7 +143,7 @@
             [pathTop closePath];
             [pathTop fill];
             
-            [[control.selectedColor lightenColorByValue:1.0-alpha] setFill];
+            [[control.selectedColor colorWithAlphaComponent:alpha] setFill];
             NSBezierPath *pathBot = [NSBezierPath bezierPath];
             [pathBot moveToPoint:NSMakePoint(rect.origin.x+radius, NSMaxY(rect))];
             [pathBot lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y + rect.size.height)];
