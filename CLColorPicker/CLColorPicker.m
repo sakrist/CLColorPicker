@@ -61,6 +61,8 @@
         [_control setSelected:_enableColorChoose forSegment:1];
 
         NSColorPanel *cp = [NSColorPanel sharedColorPanel];
+        [cp setColor:_control.selectedColor];
+        [cp setShowsAlpha:YES];
         if (_enableColorChoose) {
             [cp setTarget:self];
             [cp setAction:@selector(colorUpdate:)];

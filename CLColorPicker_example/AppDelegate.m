@@ -21,7 +21,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
-    [_colorControl setSelectedColor:[NSColor purpleColor]];
+    [_colorControl setSelectedColor:[NSColor colorWithRed:130.0/255.0 green:80.0/255.0 blue:183.0/255.0 alpha:1]];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

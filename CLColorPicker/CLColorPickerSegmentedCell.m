@@ -111,25 +111,48 @@
         
         CGFloat radius = 5;
         
-        NSBezierPath *path = [NSBezierPath bezierPath];
-        
         NSRect rect = frame;
+        
+        NSBezierPath *path = [NSBezierPath bezierPath];
         
         [path moveToPoint:NSMakePoint(rect.origin.x+radius, NSMaxY(rect))];
         [path lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y + rect.size.height)];
         [path lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y)];
         
-//        [path appendBezierPathWithArcWithCenter:NSMakePoint(rect.origin.x + rect.size.width - radius, rect.origin.y + rect.size.height - radius) radius: radius startAngle: 90 endAngle: 0.0f clockwise:YES];
-//        [path appendBezierPathWithArcWithCenter:NSMakePoint(rect.origin.x + rect.size.width - radius, rect.origin.y + radius) radius: radius  startAngle:360.0f endAngle: 270 clockwise:YES] ;
         [path appendBezierPathWithArcWithCenter:NSMakePoint(rect.origin.x + radius, rect.origin.y + radius) radius:radius startAngle:270 endAngle: 180 clockwise:YES];
         [path appendBezierPathWithArcWithCenter:NSMakePoint(rect.origin.x + radius, rect.origin.y + rect.size.height - radius) radius:radius startAngle: 180 endAngle: 90 clockwise:YES];
         [path closePath];
         
+        CGFloat alpha = [control.selectedColor alphaComponent];
 
         [path setLineWidth:0.75];
         [[NSColor colorWithIntegerRed:173 green:173 blue:173 alpha:255] setStroke];
         [control.selectedColor setFill];
-        [path fill];
+        
+        if (alpha == 1) {
+            [path fill];
+        } else {
+        
+            [[control.selectedColor darkenColorByValue:1.0-alpha] setFill];
+            NSBezierPath *pathTop = [NSBezierPath bezierPath];
+            [pathTop moveToPoint:NSMakePoint(rect.origin.x+radius, NSMaxY(rect))];
+            [pathTop lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y)];
+            [pathTop appendBezierPathWithArcWithCenter:NSMakePoint(rect.origin.x + radius, rect.origin.y + radius) radius:radius startAngle:270 endAngle: 180 clockwise:YES];
+            [pathTop appendBezierPathWithArcWithCenter:NSMakePoint(rect.origin.x + radius, rect.origin.y + rect.size.height - radius) radius:radius startAngle: 180 endAngle: 90 clockwise:YES];
+            [pathTop closePath];
+            [pathTop fill];
+            
+            [[control.selectedColor lightenColorByValue:1.0-alpha] setFill];
+            NSBezierPath *pathBot = [NSBezierPath bezierPath];
+            [pathBot moveToPoint:NSMakePoint(rect.origin.x+radius, NSMaxY(rect))];
+            [pathBot lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y + rect.size.height)];
+            [pathBot lineToPoint:NSMakePoint(rect.origin.x + rect.size.width, rect.origin.y)];
+            [pathBot closePath];
+            [pathBot fill];
+            
+        }
+        
+        
         [path stroke];
         [ctx restoreGraphicsState];
         
