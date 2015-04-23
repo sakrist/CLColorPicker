@@ -84,7 +84,10 @@
 
 - (void) selectColor:(NSButton*)b {
     if ([_target respondsToSelector:_selector]) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
         [_target performSelector:_selector withObject:[[b cell] backgroundColor]];
+#pragma clang diagnostic pop
     }
 }
 
