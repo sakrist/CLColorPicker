@@ -174,8 +174,10 @@
         }
         
     } else {
-#warning "Don't forget add `colorpicker_icon` to your project"
         NSImage *image = [NSImage imageNamed:@"colorpicker_icon"];
+        if (!image) {
+            NSLog(@"Don't forget add 'colorpicker_icon' to your project");
+        }
         [image drawInRect:NSMakeRect(48, (24-image.size.height)/2, image.size.width, image.size.height)];
     }
 
