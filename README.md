@@ -15,14 +15,9 @@ This control based on NSSegmentedControl and have numbers of useful thinks to kn
 
 <br>
 
-Control implemented for my future app, which is does not sponsored yet. So, contribution or financial support are welcome! Thank you!
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B4VMLFZ986FNW">
-<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit"/>
-</a>
-___
+Control implemented for my future app, which is does not sponsored yet. So, any contributions are welcome! Thank you!
 
+<br>
 License: [MIT](http://opensource.org/licenses/MIT)
-___
-
-Twitter: [@SAKrisT](https://twitter.com/SAKrisT)
+<br>
 
