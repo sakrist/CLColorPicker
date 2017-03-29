@@ -1,10 +1,10 @@
 CLColorPicker
 =============
 
-Here is implementation of color picker control which is similar to one that used in original Mac applications like Numbers, Pages, Keynote. Original one has lots of small pictures.
-This control based on NSSegmentedControl and have numbers of useful thinks to know, so it's not just implementation but also good place to look:<br/>
-	- how to subclass NSSegmentedCell<br/>
-	- how is working NSTrackingArea<br/>
+Color picker control which is similar to one that in original Mac applications like Numbers, Pages, Keynote. Original one has lots of small pictures.
+This control based on NSSegmentedControl and has numbers of interesting things to know, so it's not just implementation but also good place to look how:<br/>
+	- to subclass NSSegmentedCell<br/>
+	- is working NSTrackingArea<br/>
 	- create NSPopover<br/>
 
 
@@ -15,7 +15,7 @@ This control based on NSSegmentedControl and have numbers of useful thinks to kn
 
 <br>
 
-Control implemented for my future app, which is does not sponsored yet. So, any contributions are welcome! Thank you!
+Any contributions are welcome! Thank you!
 
 <br>
 License: [MIT](http://opensource.org/licenses/MIT)
